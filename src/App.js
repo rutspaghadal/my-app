@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React ritik 1
+          Learn React ritik 123
         </a>
       </header>
     </div>
