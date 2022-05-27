@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      Rut"s Paghadal
+      Rut"s 777
     </div>
   );
 }
