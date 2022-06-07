@@ -10,6 +10,7 @@ function Counter(props) {
                 break;
 
             default:
+                
                 break;
         }
 
