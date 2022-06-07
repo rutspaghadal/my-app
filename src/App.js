@@ -1,26 +1,28 @@
-import React, { useEffect, useState }  from 'react';
+import React from 'react';
 
-function Timefun(props) {
-  const [Time , SetTime] = useState (New Date());
-  const [Data , SetData] = useState ([]);
+function App(props) {
 
-  const tick = () => {
-    setTimeout(New Date ());
-  }
-
-  useEffect(() => {
-    const timeE = setInterval(() => tick() , 1000);
-
-    return() => {
-      clearInterval(timeE)
+  const myObj = {
+    name: "John",
+    age: 30,
+    cars: {
+        car1: "Ford",
+        car2: "BMW",
+        car3: "Fiat"
     }
-  }, [time , data]);
-
-  return (
-    <div>
-      <p>{time.tolocate Time String()}</p>
-    </div>
-  );
 }
 
-export default Timefun;
+ 
+         for(let key in myObj){
+         if(myObj[key] ==myObj.cars){
+           for(let j in myObj.cars){
+             console.log(myObj.cars[j]);
+           }
+         }else{
+           console.log(myObj[key]);
+         }
+      }
+  
+}
+
+export default App;
