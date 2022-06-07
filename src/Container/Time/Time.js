@@ -1,11 +1,11 @@
 import React, { useEffect, useState }  from 'react';
 
 function Timefun(props) {
-  const [Time , SetTime] = useState (New Date());
+  const [Time , SetTime] = useState (Date());
   const [Data , SetData] = useState ([]);
 
   const tick = () => {
-    setTimeout(New Date ());
+    SetTime(Date ());
   }
 
   useEffect(() => {
@@ -14,11 +14,11 @@ function Timefun(props) {
     return() => {
       clearInterval(timeE)
     }
-  }, [time , data]);
+  }, [Time , Data]);
 
   return (
     <div>
-      <p>{time.tolocate Time String()}</p>
+      <p>{JSON.stringify(Time)}</p>
     </div>
   );
 }
