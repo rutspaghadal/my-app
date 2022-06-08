@@ -10,7 +10,7 @@ function Counter(props) {
                 break;
 
             default:
-                
+
                 break;
         }
 
@@ -20,8 +20,8 @@ function Counter(props) {
         <div>
             <h1>Counter :: {counter}</h1>
 
-            <button onClick={() => setCounter(counter + 1)}>+</button>
             <button onClick={() => setCounter(counter - 1)}>-</button>
+            <button onClick={() => setCounter(counter + 1)}>+</button>
             
         </div>
     );
