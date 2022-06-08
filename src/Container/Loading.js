@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-function Loading(component) {
+function Loading(Component) {
     return function WithLoadingComponent({isLoading, data}) {
         if(isLoading) {
             return(

@@ -5,15 +5,15 @@ import Loading from './Container/Loading';
  const HomeWithLoading = Loading(Home);
  
 
- 
-
 function App(props) {
   const [loading, setLoading] = useState(false);
   const [data, setData] = useState([]);
 
   const orgData = [
     {id:101, name:'Ritik'},
-    {id:102, name:"Maithil"}
+    {id:102, name:"Maithil"},
+    {id:103, name:"Kartik"},
+    {id:104, name:"Jaymin"}
   ];
 
   useEffect(() => {
