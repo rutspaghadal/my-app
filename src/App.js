@@ -10,10 +10,16 @@ function App(props) {
   const [data, setData] = useState([]);
 
   const orgData = [
-    {id:101, name:'Ritik'},
-    {id:102, name:"Maithil"},
-    {id:103, name:"Kartik"},
-    {id:104, name:"Jaymin"}
+    {id:1, name:'Ritik'},
+    {id:2, name:"Maithil"},
+    {id:3, name:"Kartik"},
+    {id:4, name:"Jaymin"},
+    {id:5, name:"Sagar"},
+    {id:6, name:"Zara"},
+    {id:7, name:"Lilian"},
+    {id:8, name:"Nora"},
+    {id:9, name:"Prince"},
+    {id:10, name:"Yash"}
   ];
 
   useEffect(() => {
